@@ -9,12 +9,31 @@
 </head>
 <body>
     <h1>ARÈNE DES LÉGENDES</h1>
+   <div id="hero-selection" class="hero-selection">
+  <h2>Choisissez votre héros</h2>
+  <div class="hero-buttons">
+    <button data-hero="knight">
+      <img src="assets/images/knight.gif" alt="Chevalier"><br>Chevalier
+    </button>
+    <button data-hero="ninja">
+      <img src="assets/images/ninja.gif" alt="Ninja"><br>Ninja
+    </button>
+    <button data-hero="sorcerer">
+      <img src="assets/images/sorcerer.gif" alt="Sorcier"><br>Sorcier
+    </button>
+  </div>
+</div>
+
+
+
+      
     <div id="arena" class="grid-7x7"></div>
     
     <script   src="js/arena.js"></script>
     <script  src="js/heroes.js"></script>
     <script  src="js/movement.js"></script>
     <script  src="js/constants.js"></script>
-    <script  src="./js/main.js"></script>
+   <script type="module" src="js/main.js"></script>
+
 </body>
 </html>
