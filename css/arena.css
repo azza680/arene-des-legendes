@@ -381,6 +381,15 @@ body::before {
     height: 100%;
     transition: width 0.3s ease;
 }
+.turn-banner {
+    background-color: #222;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 2px solid #444;
+}
 
 
 
